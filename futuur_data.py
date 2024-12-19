@@ -9,8 +9,8 @@ import time
 import pandas as pd
 
 # Define your private and public keys and the base URL
-PRIVATE_KEY = '2220a570b98830106fd9ede55eba0e0e60b35bd1'
-PUBLIC_KEY = '26b7842d5ae0227cb3808c518fb06f15746d193c'
+PRIVATE_KEY = 'Your private key goes here'
+PUBLIC_KEY = 'your public key goes here'
 BASE_URL = 'https://api.futuur.com/api/v1/'
 
 # Function to generate the HMAC signature for secure API requests
