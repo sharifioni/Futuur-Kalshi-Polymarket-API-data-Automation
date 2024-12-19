@@ -1,13 +1,7 @@
 import pandas as pd
 from datetime import datetime
 
-# Assuming df1 is Futuur, df2 is Polymarket, and df3 is Kalshi
-# Assuming df3_match is the dataframe that matches semantically similar titles
 
-#df1 = df_futuur
-#df2 = df_polymarket_1
-#df3 = df_kalshi_1
-#df3_match = similar_titles_df
 
 # Define today's date to calculate 'Days Until End Date'
 today = pd.to_datetime(datetime.today())
